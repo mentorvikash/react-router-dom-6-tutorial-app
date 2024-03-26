@@ -6,6 +6,9 @@ import NavBar from "./component/NavBar";
 import OrderSucess from "./component/OrderSucess";
 import OrderFail from "./component/OrderFail";
 import NotFound from "./component/NotFound";
+import Products from "./component/Products";
+import Features from "./component/Features";
+import New from "./component/New";
 
 function App() {
   return (
@@ -16,6 +19,10 @@ function App() {
         <Route path="/about" Component={About} />
         <Route path="/pass" Component={OrderSucess} />
         <Route path="/fail" Component={OrderFail} />
+        <Route path="/products" Component={Products}>
+          <Route path="feature" Component={Features} />
+          <Route path="new" Component={New} />
+        </Route>
         <Route path="*" Component={NotFound} />
       </Routes>
     </>
