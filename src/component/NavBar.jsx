@@ -5,13 +5,13 @@ function NavBar() {
     <div className="navbar">
       <ul className="navlist">
         <li>
-          <NavLink to="/home">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
           <NavLink to="about">About</NavLink>
         </li>
         <li>
-          <NavLink to="products">Products</NavLink>
+          <NavLink to="product">Product</NavLink>
         </li>
       </ul>
     </div>

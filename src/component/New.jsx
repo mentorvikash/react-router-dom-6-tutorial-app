@@ -1,5 +1,5 @@
 function New() {
-  return <div>New Component</div>;
+  return <div>This is my New page.</div>;
 }
 
 export default New;
